@@ -152,6 +152,7 @@ if [ $stage -le 13 ]; then
   # as the layer immediately preceding the fixed-affine-layer to enable
   # the use of short notation for the descriptor
   fixed-affine-layer name=lda input=Append(-2,-1,0,1,2,ReplaceIndex(ivector, t, 0)) affine-transform-file=$dir/configs/lda.mat
+  #for tansfer lerning to solve layer difference- fixed-affine-layer name=lda  input=Append(-1,0,1,ReplaceIndex(ivector, t, 0)) dim=220 affine-transform-file=$dir/configs/lda.mat
 
   # the first splicing is moved before the lda layer, so no splicing here
   relu-batchnorm-layer name=tdnn1 dim=768
