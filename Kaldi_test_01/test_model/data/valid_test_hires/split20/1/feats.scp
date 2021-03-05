@@ -1,0 +1,10 @@
+cv-valid-test-sample-000000 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:28
+cv-valid-test-sample-000001 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:13077
+cv-valid-test-sample-000002 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:21046
+cv-valid-test-sample-000003 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:29015
+cv-valid-test-sample-000004 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:60024
+cv-valid-test-sample-000005 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:83433
+cv-valid-test-sample-000006 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:102242
+cv-valid-test-sample-000007 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:121171
+cv-valid-test-sample-000008 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:131820
+cv-valid-test-sample-000009 /home/danny/kaldi/egs/danny2_transfer/s5/data/valid_test_hires/data/raw_mfcc_valid_test_hires.1.ark:157069

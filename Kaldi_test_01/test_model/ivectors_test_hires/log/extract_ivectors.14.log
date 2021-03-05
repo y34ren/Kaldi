@@ -1,0 +1,13 @@
+# ivector-extract-online2 --config=exp/nnet3/ivectors_valid_test_hires/conf/ivector_extractor.conf ark:data/valid_test_hires/split20/14/spk2utt scp:data/valid_test_hires/split20/14/feats.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/exp/nnet3/ivectors_valid_test_hires/ivector_online.14.ark,/home/danny/kaldi/egs/danny2_transfer/s5/exp/nnet3/ivectors_valid_test_hires/ivector_online.14.scp 
+# Started at Thu Dec 10 13:17:57 EST 2020
+#
+copy-feats --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/exp/nnet3/ivectors_valid_test_hires/ivector_online.14.ark,/home/danny/kaldi/egs/danny2_transfer/s5/exp/nnet3/ivectors_valid_test_hires/ivector_online.14.scp 
+ivector-extract-online2 --config=exp/nnet3/ivectors_valid_test_hires/conf/ivector_extractor.conf ark:data/valid_test_hires/split20/14/spk2utt scp:data/valid_test_hires/split20/14/feats.scp ark:- 
+LOG (ivector-extract-online2[5.5.790~1-ebb43]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extract-online2[5.5.790~1-ebb43]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extract-online2[5.5.790~1-ebb43]:main():ivector-extract-online2.cc:189) Estimated iVectors for 10 files, 0 with errors.
+LOG (ivector-extract-online2[5.5.790~1-ebb43]:main():ivector-extract-online2.cc:191) Average objective-function improvement was 10.2909 per frame, over 4384 frames (weighted).
+LOG (ivector-extract-online2[5.5.790~1-ebb43]:main():ivector-extract-online2.cc:194) Average iVector length was 5.64906 and at utterance-end was 6.4798, over 4384 frames (weighted);  expected length is 10
+LOG (copy-feats[5.5.790~1-ebb43]:main():copy-feats.cc:143) Copied 10 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Dec 10 13:17:58 EST 2020, elapsed time 1 seconds

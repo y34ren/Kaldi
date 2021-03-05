@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/valid_dev_hires/spk2utt scp:data/valid_dev_hires/feats.scp ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/cmvn_valid_dev_hires.ark,/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/cmvn_valid_dev_hires.scp 
+LOG (compute-cmvn-stats[5.5.790~1-ebb43]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 200 utterances; 0 had errors.
