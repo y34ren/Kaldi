@@ -1,0 +1,1083 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:data/valid_train_sp/log/utt2dur.4 --verbose=2 --config=conf/mfcc.conf scp,p:data/valid_train_sp/log/wav_valid_train_sp.4.scp ark:- | copy-feats --write-num-frames=ark,t:data/valid_train_sp/log/utt2num_frames.4 --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_train_sp/data/raw_mfcc_valid_train_sp.4.ark,/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_train_sp/data/raw_mfcc_valid_train_sp.4.scp 
+# Started at Thu Dec 10 13:09:57 EST 2020
+#
+compute-mfcc-feats --write-utt2dur=ark,t:data/valid_train_sp/log/utt2dur.4 --verbose=2 --config=conf/mfcc.conf scp,p:data/valid_train_sp/log/wav_valid_train_sp.4.scp ark:- 
+copy-feats --write-num-frames=ark,t:data/valid_train_sp/log/utt2num_frames.4 --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_train_sp/data/raw_mfcc_valid_train_sp.4.ark,/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_train_sp/data/raw_mfcc_valid_train_sp.4.scp 
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 73728 bytes of wave data, but read only 72960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000900
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000901
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 157440 bytes of wave data, but read only 156672 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000902
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 123648 bytes of wave data, but read only 122880 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000903
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 112128 bytes of wave data, but read only 111360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000904
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 92928 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000905
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 192768 bytes of wave data, but read only 192000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000906
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 196608 bytes of wave data, but read only 195840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000907
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109824 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000908
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 118272 bytes of wave data, but read only 117504 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000909
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 183552 bytes of wave data, but read only 182784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000910
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 105216 bytes of wave data, but read only 104448 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000911
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 66048 bytes of wave data, but read only 65280 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000912
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 277248 bytes of wave data, but read only 276480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000913
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 119808 bytes of wave data, but read only 119040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000914
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 108288 bytes of wave data, but read only 107520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000915
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 193536 bytes of wave data, but read only 192768 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000916
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 62208 bytes of wave data, but read only 61440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000917
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 91392 bytes of wave data, but read only 90624 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000918
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 115968 bytes of wave data, but read only 115200 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000919
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 83712 bytes of wave data, but read only 82944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000920
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 169728 bytes of wave data, but read only 168960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000921
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 123648 bytes of wave data, but read only 122880 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000922
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 188928 bytes of wave data, but read only 188160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000923
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 76032 bytes of wave data, but read only 75264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000924
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 96000 bytes of wave data, but read only 95232 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000925
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 75264 bytes of wave data, but read only 74496 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000926
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 112128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000927
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 141312 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000928
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 92928 bytes of wave data, but read only 92160 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000929
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 261888 bytes of wave data, but read only 261120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000930
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 192768 bytes of wave data, but read only 192000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000931
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109824 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000932
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 81408 bytes of wave data, but read only 80640 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000933
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 285696 bytes of wave data, but read only 284928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000934
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155904 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000935
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 118272 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000936
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 311808 bytes of wave data, but read only 311040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000937
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 150528 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000938
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 208896 bytes of wave data, but read only 208128 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000939
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 192768 bytes of wave data, but read only 192000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000940
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000941
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 158208 bytes of wave data, but read only 157440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000942
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 86016 bytes of wave data, but read only 85248 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000943
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 146688 bytes of wave data, but read only 145920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000944
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 85248 bytes of wave data, but read only 84480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000945
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 218112 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000946
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 183552 bytes of wave data, but read only 182784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000947
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 139008 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000948
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 150528 bytes of wave data, but read only 149760 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000949
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 197376 bytes of wave data, but read only 196608 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000950
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 108288 bytes of wave data, but read only 107520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000951
+sox WARN rate: rate clipped 6 samples; decrease volume?
+sox WARN dither: dither clipped 6 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 153600 bytes of wave data, but read only 152832 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000952
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 181248 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000953
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000954
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 102912 bytes of wave data, but read only 102144 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000955
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 205056 bytes of wave data, but read only 204288 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000956
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 104448 bytes of wave data, but read only 103680 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000957
+sox WARN rate: rate clipped 6 samples; decrease volume?
+sox WARN dither: dither clipped 5 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169728 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000958
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 218112 bytes of wave data, but read only 217344 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000959
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 118272 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000960
+sox WARN rate: rate clipped 18 samples; decrease volume?
+sox WARN dither: dither clipped 15 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 125952 bytes of wave data, but read only 125184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000961
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 112128 bytes of wave data, but read only 111360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000962
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 231168 bytes of wave data, but read only 230400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000963
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 112128 bytes of wave data, but read only 111360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000964
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 134400 bytes of wave data, but read only 133632 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000965
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 113664 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000966
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 86784 bytes of wave data, but read only 86016 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000967
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 54528 bytes of wave data, but read only 53760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000968
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 137472 bytes of wave data, but read only 136704 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000969
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 51456 bytes of wave data, but read only 50688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000970
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 135168 bytes of wave data, but read only 134400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000971
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 119808 bytes of wave data, but read only 119040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000972
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 89088 bytes of wave data, but read only 88320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000973
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 115968 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000974
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 140544 bytes of wave data, but read only 139776 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000975
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 119040 bytes of wave data, but read only 118272 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000976
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 196608 bytes of wave data, but read only 195840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000977
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 104448 bytes of wave data, but read only 103680 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000978
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 79872 bytes of wave data, but read only 79104 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000979
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 115968 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000980
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 275712 bytes of wave data, but read only 274944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000981
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 100608 bytes of wave data, but read only 99840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000982
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 73728 bytes of wave data, but read only 72960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000983
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 231168 bytes of wave data, but read only 230400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000984
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 76800 bytes of wave data, but read only 76032 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000985
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 275712 bytes of wave data, but read only 274944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000986
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 177408 bytes of wave data, but read only 176640 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000987
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 119808 bytes of wave data, but read only 119040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000988
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 139008 bytes of wave data, but read only 138240 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000989
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 167424 bytes of wave data, but read only 166656 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000990
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 212736 bytes of wave data, but read only 211968 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000991
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 131328 bytes of wave data, but read only 130560 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000992
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 158976 bytes of wave data, but read only 158208 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000993
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 130560 bytes of wave data, but read only 129792 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000994
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 108288 bytes of wave data, but read only 107520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000995
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 58368 bytes of wave data, but read only 57600 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000996
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 135168 bytes of wave data, but read only 134400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000997
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 359424 bytes of wave data, but read only 358656 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000998
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 85248 bytes of wave data, but read only 84480 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-train-sample-000999
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000000
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000001
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000002
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000003
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 123 samples; decrease volume?
+sox WARN dither: dither clipped 106 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 81 samples; decrease volume?
+sox WARN dither: dither clipped 69 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000004
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000005
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000006
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000007
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000008
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000009
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000010
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000011
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000012
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000013
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000014
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000015
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000016
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000017
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000018
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000019
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000020
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000021
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000022
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000023
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000024
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000025
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000026
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000027
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000028
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000029
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000030
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000031
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000032
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000033
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000034
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000035
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000036
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000037
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000038
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000039
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000040
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000041
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000042
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000043
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000044
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000045
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000046
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000047
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000048
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000049
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000050
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000051
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000052
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000053
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000054
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000055
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000056
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000057
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000058
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000059
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000060
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000061
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000062
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000063
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000064
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000065
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000066
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000067
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000068
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000069
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000070
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000071
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000072
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000073
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000074
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000075
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000076
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000077
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000078
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000079
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000080
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000081
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000082
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000083
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000084
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000085
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000086
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000087
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000088
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000089
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000090
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000091
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000092
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000093
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000094
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000095
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000096
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000097
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000098
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000099
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000100
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000101
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000102
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000103
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000104
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000105
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000106
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000107
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000108
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000109
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000110
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000111
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000112
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000113
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000114
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000115
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000116
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000117
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000118
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000119
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000120
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000121
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000122
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000123
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000124
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 147 samples; decrease volume?
+sox WARN dither: dither clipped 128 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 107 samples; decrease volume?
+sox WARN dither: dither clipped 95 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000125
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000126
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000127
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000128
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000129
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000130
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000131
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000132
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000133
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000134
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000135
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000136
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000137
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000138
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000139
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000140
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000141
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000142
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000143
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000144
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000145
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000146
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000147
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000148
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000149
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000150
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000151
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000152
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000153
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000154
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000155
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000156
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 95 samples; decrease volume?
+sox WARN dither: dither clipped 82 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 73 samples; decrease volume?
+sox WARN dither: dither clipped 65 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000157
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000158
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000159
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000160
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000161
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000162
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000163
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000164
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000165
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000166
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000167
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000168
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000169
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000170
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000171
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000172
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000173
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000174
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000175
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000176
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000177
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000178
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000179
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN rate: rate clipped 5 samples; decrease volume?
+sox WARN dither: dither clipped 5 samples; decrease volume?
+sox WARN wav: Premature EOF on .wav input file
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000180
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000181
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000182
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000183
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000184
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000185
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000186
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000187
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000188
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000189
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000190
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000191
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000192
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000193
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000194
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000195
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000196
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000197
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000198
+sox WARN wav: Length in output .wav header will be wrong since can't seek to fix it
+VLOG[1] (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:249) Read in RIFF chunk size: 2147479588, data chunk size: 2147479552. Assume 'stream mode' (reading data to EOF).
+sox WARN wav: Premature EOF on .wav input file
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key sp0.9-cv-valid-train-sample-000199
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:185)  Done 300 out of 300 utterances.
+LOG (copy-feats[5.5.790~1-ebb43]:main():copy-feats.cc:143) Copied 300 feature matrices.
+# Accounting: time=30 threads=1
+# Ended (code 0) at Thu Dec 10 13:10:27 EST 2020, elapsed time 30 seconds

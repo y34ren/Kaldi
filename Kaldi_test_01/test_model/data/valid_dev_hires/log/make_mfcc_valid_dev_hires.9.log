@@ -1,0 +1,51 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:data/valid_dev_hires/log/utt2dur.9 --verbose=2 --config=conf/mfcc_hires.conf scp,p:data/valid_dev_hires/log/wav_valid_dev_hires.9.scp ark:- | copy-feats --write-num-frames=ark,t:data/valid_dev_hires/log/utt2num_frames.9 --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/raw_mfcc_valid_dev_hires.9.ark,/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/raw_mfcc_valid_dev_hires.9.scp 
+# Started at Thu Dec 10 13:13:31 EST 2020
+#
+copy-feats --write-num-frames=ark,t:data/valid_dev_hires/log/utt2num_frames.9 --compress=true ark:- ark,scp:/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/raw_mfcc_valid_dev_hires.9.ark,/home/danny/kaldi/egs/danny2_transfer/s5/data/valid_dev_hires/data/raw_mfcc_valid_dev_hires.9.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:data/valid_dev_hires/log/utt2dur.9 --verbose=2 --config=conf/mfcc_hires.conf scp,p:data/valid_dev_hires/log/wav_valid_dev_hires.9.scp ark:- 
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 100608 bytes of wave data, but read only 99840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000160
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 102912 bytes of wave data, but read only 102144 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000161
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 141312 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000162
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 132096 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000163
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 129792 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000164
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 148224 bytes of wave data, but read only 147456 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000165
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 155904 bytes of wave data, but read only 155136 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000166
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 69888 bytes of wave data, but read only 69120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000167
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 227328 bytes of wave data, but read only 226560 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000168
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 79872 bytes of wave data, but read only 79104 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000169
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 119040 bytes of wave data, but read only 118272 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000170
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 141312 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000171
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 125952 bytes of wave data, but read only 125184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000172
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 111360 bytes of wave data, but read only 110592 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000173
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 175872 bytes of wave data, but read only 175104 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000174
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 73728 bytes of wave data, but read only 72960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000175
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 165888 bytes of wave data, but read only 165120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000176
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 79872 bytes of wave data, but read only 79104 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000177
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 99840 bytes of wave data, but read only 99072 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000178
+WARNING (compute-mfcc-feats[5.5.790~1-ebb43]:Read():wave-reader.cc:304) Expected 108288 bytes of wave data, but read only 107520 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:182) Processed features for key cv-valid-dev-sample-000179
+LOG (compute-mfcc-feats[5.5.790~1-ebb43]:main():compute-mfcc-feats.cc:185)  Done 20 out of 20 utterances.
+LOG (copy-feats[5.5.790~1-ebb43]:main():copy-feats.cc:143) Copied 20 feature matrices.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Thu Dec 10 13:13:33 EST 2020, elapsed time 2 seconds

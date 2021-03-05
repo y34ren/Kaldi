@@ -1,0 +1,17 @@
+# ivector-extractor-sum-accs exp/nnet3/extractor/acc.7.1 exp/nnet3/extractor/acc.7.2 exp/nnet3/extractor/acc.7.3 exp/nnet3/extractor/acc.7.4 exp/nnet3/extractor/acc.7.5 exp/nnet3/extractor/acc.7.6 exp/nnet3/extractor/acc.7.7 exp/nnet3/extractor/acc.7.8 exp/nnet3/extractor/acc.7.9 exp/nnet3/extractor/acc.7.10 exp/nnet3/extractor/acc.7 
+# Started at Thu Dec 10 13:17:06 EST 2020
+#
+ivector-extractor-sum-accs exp/nnet3/extractor/acc.7.1 exp/nnet3/extractor/acc.7.2 exp/nnet3/extractor/acc.7.3 exp/nnet3/extractor/acc.7.4 exp/nnet3/extractor/acc.7.5 exp/nnet3/extractor/acc.7.6 exp/nnet3/extractor/acc.7.7 exp/nnet3/extractor/acc.7.8 exp/nnet3/extractor/acc.7.9 exp/nnet3/extractor/acc.7.10 exp/nnet3/extractor/acc.7 
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.1
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.2
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.3
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.4
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.5
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.6
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.7
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.8
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.9
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3/extractor/acc.7.10
+LOG (ivector-extractor-sum-accs[5.5.790~1-ebb43]:main():ivector-extractor-sum-accs.cc:83) Wrote summed stats to exp/nnet3/extractor/acc.7
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Dec 10 13:17:06 EST 2020, elapsed time 0 seconds

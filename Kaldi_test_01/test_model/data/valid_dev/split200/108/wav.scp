@@ -1,0 +1,1 @@
+cv-valid-dev-sample-000107 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000107.mp3 -t wav -r 16k -b 16 -e signed - |

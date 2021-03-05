@@ -1,0 +1,10 @@
+cv-valid-dev-sample-000170 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000170.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000171 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000171.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000172 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000172.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000173 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000173.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000174 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000174.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000175 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000175.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000176 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000176.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000177 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000177.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000178 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000178.mp3 -t wav -r 16k -b 16 -e signed - |
+cv-valid-dev-sample-000179 sox /home/danny/Kaldi_test_01/cv-valid-dev/sample-000179.mp3 -t wav -r 16k -b 16 -e signed - |
